@@ -23,7 +23,9 @@ def findVals(a,b):
     return z
         
 
-n = int(raw_input())
-for i in range(n):
-    arr = map(int, raw_input().split())
-    print findVals(arr[0],arr[1])
+#n = int(raw_input())
+#for i in range(n):
+#    arr = map(int, raw_input().split())
+#    print findVals(arr[0],arr[1])
+
+print findVals(500,45789)
